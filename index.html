@@ -3,43 +3,65 @@
 <head>
 	<title>Yacine FETHI - Développeur Multimédia</title>
 	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<style type="text/css">
-		body { margin: 0; }
-		#bg {
-		  position: fixed;
-		  top: 0;
-		  left: 0;
-		  right: 0;
-		  bottom: 0;
-		  width: 100%;
-		  height: 100%;
-		}
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-		#bgcolor {
-		  position: absolute;
-		  height: 100%;
-		  width: 100%;
-		  opacity: 1;
-		  background-image: radial-gradient(ellipse at center, rgba(138, 3, 11, 0.8) 25%, rgba(53, 10, 115, 0.8) 90%, rgba(0, 0, 0, 0.9) 100%)	;
-		}
-	</style>
+
 </head>
 <body>
-	<canvas id="bg"></canvas>
-	<div id="bg2"></div>
-	<div id="bgcolor"></div>
-
+	
 	<header>
-		<nav>
-			<ul>
-				<li><a href="">ACCEUIL</a></li>
-				<li><a href="">A propos de moi</a></li>
-				<li><a href="">Compétences</a></li>
-				<li><a href="">Réalisation</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-		</nav>
+		<section id="home">
+			<nav class="header__nav">
+                <ul class="header__nav__menu">
+                    <li class="header__nav__list">
+                        <a class="header__nav__link header__nav__link--active" href="#home">Accueil</a>
+                    </li>
+                    <li class="header__nav__list">
+                        <a class="header__nav__link" href="#about"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i>A propos de moi</a>
+                    </li>
+                    <li class="header__nav__list">
+                        <a class="header__nav__link" href="#skills"><i class="fa fa-fw fa-code" aria-hidden="true"></i>Compétences</a>
+                    </li>
+                    <li class="header__nav__list">
+                        <a class="header__nav__link" href="#works"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Réalisations</a>
+                    </li>
+                    <li class="header__nav__list">
+                        <a class="header__nav__link" href="#contact"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Contact</a>
+                    </li>
+                </ul>
+
+                <div class="dropdown hidden">
+                    <i onclick="myFunction()" class="fa fa-bars dropbtn" aria-hidden="true"></i>
+                    <div id="myDropdown" class="dropdown__content">
+                        <a href="#home">Accueil</a>
+                        <a href="#about">A propos</a>
+                        <a href="#projets">Projets</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+            </nav>
+		</section>
 	</header>
+	<section id="#about" style="height: 2000px; background-color: blue;">
+		
+	</section>
+	<section id="#skills" style="height: 2000px; background-color: white;">
+		
+	</section>
+	<section id="#works" style="height: 2000px; background-color: purple;">
+		
+	</section>
+	<section id="#contact" style="height: 2000px; background-color: yellow;">
+		
+	</section>
+	<a id="to-top" class="top">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
