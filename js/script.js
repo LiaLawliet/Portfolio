@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    let rocket = "https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RocketLeague_image1600w.jpg";
+    let assassin = "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-FR/global/media/ac4_ss4_full_165234.jpg"
+    let images = [rocket, assassin];
+    let random = Math.round(Math.random());
+
+    $(".bulles").attr("href", images[random]);
+    $(".bgImage").css({"background-image": "url("+ images[random] +")"});
+
     /* On click scroll sur la div cliquÃ©e */
     $("a").on('click', function(e) {
         if (this.hash !== "") {
