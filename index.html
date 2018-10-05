@@ -5,63 +5,365 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
+	<style type="text/css">
+		.bgImage {
+		  margin: 0;
+		  height: 100%;
+		  width: 100%;
+		  overflow: hidden;
+		  position: absolute;
+		  background-image: url(../assets/rocket.jpg);
+		  background-size: cover;
+		  background-position: top;
+		  -webkit-filter: grayscale(70%);
+		  /* Safari 6.0 - 9.0 */
+		  filter: grayscale(70%);
+		  z-index: -1;
+		}
+		.blobCont {
+			filter: blur(1px);
+			position: absolute;
+			width: 100vw;
+			height: 100vh;
+		}
+		.blob:nth-child(1) {
+		  animation: move1 20s infinite linear;
+		}
+		@keyframes move1 {
+		  from {
+		    transform: rotate(90deg) translate(200px, 0.1px) rotate(-90deg);
+		  }
+		  to {
+		    transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
+		  }
+		}
+		.blob:nth-child(2) {
+		  animation: move2 20s infinite linear;
+		}
+		@keyframes move2 {
+		  from {
+		    transform: rotate(180deg) translate(200px, 0.1px) rotate(-180deg);
+		  }
+		  to {
+		    transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
+		  }
+		}
+		.blob:nth-child(3) {
+		  animation: move3 20s infinite linear;
+		}
+		@keyframes move3 {
+		  from {
+		    transform: rotate(270deg) translate(200px, 0.1px) rotate(-270deg);
+		  }
+		  to {
+		    transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+		  }
+		}
+		.blob:nth-child(4) {
+		  animation: move4 20s infinite linear;
+		}
+		@keyframes move4 {
+		  from {
+		    transform: rotate(360deg) translate(200px, 0.1px) rotate(-360deg);
+		  }
+		  to {
+		    transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+		  }
+		}
+		.blob:nth-child(5) {
+		  animation: move5 20s infinite linear;
+		}
+		@keyframes move5 {
+		  from {
+		    transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
+		  }
+		  to {
+		    transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
+		  }
+		}
+		.blob:nth-child(6) {
+		  animation: move6 20s infinite linear;
+		}
+		@keyframes move6 {
+		  from {
+		    transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
+		  }
+		  to {
+		    transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
+		  }
+		}
+		.blob:nth-child(7) {
+		  animation: move7 20s infinite linear;
+		}
+		@keyframes move7 {
+		  from {
+		    transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+		  }
+		  to {
+		    transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+		  }
+		}
+		.blob:nth-child(8) {
+		  animation: move8 20s infinite linear;
+		}
+		@keyframes move8 {
+		  from {
+		    transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+		  }
+		  to {
+		    transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+		  }
+		}
+		.blob:nth-child(9) {
+		  animation: move9 20s infinite linear;
+		}
+		@keyframes move9 {
+		  from {
+		    transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
+		  }
+		  to {
+		    transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+		  }
+		}
+		.blob:nth-child(10) {
+		  animation: move10 20s infinite linear;
+		}
+		@keyframes move10 {
+		  from {
+		    transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
+		  }
+		  to {
+		    transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+		  }
+		}
+		.blob:nth-child(11) {
+		  animation: move11 20s infinite linear;
+		}
+		@keyframes move11 {
+		  from {
+		    transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+		  }
+		  to {
+		    transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+		  }
+		}
+		.blob:nth-child(12) {
+		  animation: move12 20s infinite linear;
+		}
+		@keyframes move12 {
+		  from {
+		    transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+		  }
+		  to {
+		    transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+		  }
+		}
+		.blob:nth-child(13) {
+		  animation: move13 20s infinite linear;
+		}
+		@keyframes move13 {
+		  from {
+		    transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+		  }
+		  to {
+		    transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+		  }
+		}
+		.blob:nth-child(14) {
+		  animation: move14 20s infinite linear;
+		}
+		@keyframes move14 {
+		  from {
+		    transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+		  }
+		  to {
+		    transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+		  }
+		}
+		.blob:nth-child(15) {
+		  animation: move15 20s infinite linear;
+		}
+		@keyframes move15 {
+		  from {
+		    transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+		  }
+		  to {
+		    transform: rotate(1710deg) translate(200px, 0.1px) rotate(-1710deg);
+		  }
+		}
+		.blob:nth-child(16) {
+		  animation: move16 20s infinite linear;
+		}
+		@keyframes move16 {
+		  from {
+		    transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+		  }
+		  to {
+		    transform: rotate(1800deg) translate(200px, 0.1px) rotate(-1800deg);
+		  }
+		}
+		.blob:nth-child(17) {
+		  animation: move17 20s infinite linear;
+		}
+		@keyframes move17 {
+		  from {
+		    transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+		  }
+		  to {
+		    transform: rotate(1890deg) translate(200px, 0.1px) rotate(-1890deg);
+		  }
+		}
+		.blob:nth-child(18) {
+		  animation: move18 20s infinite linear;
+		}
+		@keyframes move18 {
+		  from {
+		    transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+		  }
+		  to {
+		    transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
+		  }
+		}
+	</style>
 </head>
 <body>
-	
-	<header>
-		<section id="home">
-			<nav class="header__nav">
-                <ul class="header__nav__menu">
-                    <li class="header__nav__list">
-                        <a class="header__nav__link header__nav__link--active" href="#home">Accueil</a>
-                    </li>
-                    <li class="header__nav__list">
-                        <a class="header__nav__link" href="#about"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i>A propos de moi</a>
-                    </li>
-                    <li class="header__nav__list">
-                        <a class="header__nav__link" href="#skills"><i class="fa fa-fw fa-code" aria-hidden="true"></i>Compétences</a>
-                    </li>
-                    <li class="header__nav__list">
-                        <a class="header__nav__link" href="#works"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Réalisations</a>
-                    </li>
-                    <li class="header__nav__list">
-                        <a class="header__nav__link" href="#contact"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Contact</a>
-                    </li>
-                </ul>
+		<header>
+			<div class="bgImage"></div>
+			<svg class="blobCont">
+				<image xlink:href="https://gamewave.fr/static/images/galleries/153/153-f231ae7aea79941965a0b351fc96cefc.jpg" mask="url(#mask)" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" />
+					<mask id="mask" x="0" y="0">
+						<g style="filter: url(#gooey)">
+		          <circle class="blob" cx="10%" cy="10%" r="80" fill="white" stroke="white"/>
+							<circle class="blob" cx="50%" cy="10%" r="40" fill="white" stroke="white"/>
+							<circle class="blob" cx="17%" cy="15%" r="70" fill="white" stroke="white"/>
+							<circle class="blob" cx="90%" cy="20%" r="120" fill="white" stroke="white"/>
+							<circle class="blob" cx="30%" cy="25%" r="30" fill="white" stroke="white"/>
+		          <circle class="blob" cx="50%" cy="60%" r="80" fill="white" stroke="white"/>
+							<circle class="blob" cx="70%" cy="90%" r="10" fill="white" stroke="white"/>
+							<circle class="blob" cx="90%" cy="60%" r="90" fill="white" stroke="white"/>
+							<circle class="blob" cx="30%" cy="90%" r="80" fill="white" stroke="white"/>
+		          <circle class="blob" cx="10%" cy="10%" r="80" fill="white" stroke="white"/>
+							<circle class="blob" cx="50%" cy="10%" r="20" fill="white" stroke="white"/>
+							<circle class="blob" cx="17%" cy="15%" r="70" fill="white" stroke="white"/>
+							<circle class="blob" cx="40%" cy="20%" r="120" fill="white" stroke="white"/>
+							<circle class="blob" cx="30%" cy="25%" r="30" fill="white" stroke="white"/>
+		          <circle class="blob" cx="80%" cy="60%" r="80" fill="white" stroke="white"/>
+							<circle class="blob" cx="17%" cy="10%" r="100" fill="white" stroke="white"/>
+							<circle class="blob" cx="40%" cy="60%" r="90" fill="white" stroke="white"/>
+							<circle class="blob" cx="10%" cy="50%" r="80" fill="white" stroke="white"/>
+						</g>
+					</mask>
+					<filter id="gooey" height="130%">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+		    	</filter>
+			</svg>
+			<nav class="top-right open">
+				<a href="#contact" class="disc l1">
+					<div>Contact</div>
+				</a>
+				<a href="#works" class="disc l2">
+					<div>Réalisations</div>
+				</a>
+				<a href="#skills" class="disc l3">
+					<div>Compétences</div>
+				</a>
+				<a href="#about" class="disc l4">
+					<div>A propos</div>
+				</a>
+				<a href="#home" class="disc l5 toggle header__nav__link--active">
+					Menu
+				</a>
+			</nav>
+			<!--<section class="section" id="home">
+				<nav class="header__nav">
+	                <ul class="header__nav__menu">
+	                    <li class="header__nav__list">
+	                        <a class="header__nav__link header__nav__link--active" href="#home">Accueil</a>
+	                    </li>
+	                    <li class="header__nav__list">
+	                        <a class="header__nav__link" href="#about"><i class="fa fa-fw fa-user-o" aria-hidden="true"></i>A propos de moi</a>
+	                    </li>
+	                    <li class="header__nav__list">
+	                        <a class="header__nav__link" href="#skills"><i class="fa fa-fw fa-code" aria-hidden="true"></i>Compétences</a>
+	                    </li>
+	                    <li class="header__nav__list">
+	                        <a class="header__nav__link" href="#works"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Réalisations</a>
+	                    </li>
+	                    <li class="header__nav__list">
+	                        <a class="header__nav__link" href="#contact"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Contact</a>
+	                    </li>
+	                </ul>
 
-                <div class="dropdown hidden">
-                    <i onclick="myFunction()" class="fa fa-bars dropbtn" aria-hidden="true"></i>
-                    <div id="myDropdown" class="dropdown__content">
-                        <a href="#home">Accueil</a>
-                        <a href="#about">A propos</a>
-                        <a href="#projets">Projets</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                </div>
+	                <div class="dropdown hidden">
+	                    <i class="fa fa-bars dropbtn" aria-hidden="true"></i>
+	                    <div id="myDropdown" class="dropdown__content">
+	                     
+	                    </div>
+	                </div>
 
-            </nav>
+	            </nav>
+			</section>-->
+		</header>
+		<section class="section" id="#about" style="height: 100vh; background-color: blue;">
+			
 		</section>
-	</header>
-	<section id="#about" style="height: 2000px; background-color: blue;">
-		
-	</section>
-	<section id="#skills" style="height: 2000px; background-color: white;">
-		
-	</section>
-	<section id="#works" style="height: 2000px; background-color: purple;">
-		
-	</section>
-	<section id="#contact" style="height: 2000px; background-color: yellow;">
-		
-	</section>
-	<a id="to-top" class="top">
-        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
-    </a>
+		<section class="section" id="#skills" style="height: 100vh; background-color: red;">
+			
+		</section>
+		<section class="section" id="#works" style="height: 100vh; background-color: purple;">
+			<div class="wow fadeInRight">
+				<input type="text" name="texte">
+			</div>
+		</section>
+		<section class="section" id="#contact" style="height: 100vh; background-color: yellow;">
+			
+		</section>
+		<a id="to-top" class="top">
+	        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	    </a>
 
+    <script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="js/fullpage.js"></script>
+    <script src="js/wow.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		toggle = document.querySelectorAll(".toggle")[0];
+		nav = document.querySelectorAll("nav")[0];
+		toggle_open_text = 'Menu';
+		toggle_close_text = 'Acceuil';
+
+		toggle.addEventListener('mouseenter', function() {
+			nav.classList.add('open');
+			
+		  if (nav.classList.contains('open')) {
+		    toggle.innerHTML = toggle_close_text;
+		  } else {
+		    toggle.innerHTML = toggle_open_text;
+		  }
+		}, false);
+
+		nav.addEventListener('mouseleave', function() {
+			nav.classList.remove('open');
+			
+		  if (nav.classList.contains('open')) {
+		    toggle.innerHTML = toggle_close_text;
+		  } else {
+		    toggle.innerHTML = toggle_open_text;
+		  }
+		}, false);
+
+		setTimeout(function(){
+			nav.classList.toggle('open');	
+		}, 1000);
+	</script>
+	<script>
+		new WOW().init();
+		console.log("ok");
+	</script>
 </body>
 </html>

@@ -1,11 +1,10 @@
 body{
 	margin: 0px;
-	margin-top: -16px;
 	padding: 0px;
 }
 header{
 	height: 100vh;
-	background-image: url(../assets/Web-Design-Agency.jpg);
+	background-color: #191919;
 	background-position:50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
