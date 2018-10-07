@@ -1,11 +1,11 @@
 $(document).ready(function(){
-	
+
     /*ON DECLARE LES VARIABLES D'IMAGES*/
-    let i1 = "https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RocketLeague_image1600w.jpg";
-    let i2 = "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-FR/global/media/ac4_ss4_full_165234.jpg";
-    let i3 = "https://wallpaperstock.net/wallpapers/thumbs1/46922hd.jpg";
-    let i4 = "https://images7.alphacoders.com/516/thumb-1920-516677.jpg";
-    let images = [i1, i2, i3, i4];
+    let i1 = "https://www.alain-bensoussan.com/wp-content/uploads/2017/05/34226189.jpg";
+    let i2 = "https://pvtistes.net/wp-content/uploads/2013/04/on-a-teste-etre-developpeur-web-a-montreal.jpg";
+    let i3 = "http://hdqwalls.com/wallpapers/rocket-league-x-monstercat-hr.jpg";
+    let i4 = "https://i.imgur.com/0aCVCxz.jpg";
+    let images = [i1,i2,i3,i4];
 
     /*ON DECLARE UN NOMBRES AU HASARD ENTRE 0 LE TABLEAU*/
     function getRandomInt(max) {
