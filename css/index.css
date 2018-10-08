@@ -4,10 +4,45 @@ body{
 	width: 100%;
 	overflow-x: hidden; 
 }
+
+.arrow-down{
+	text-decoration: none;
+	color: white;
+	font-size: 50px;
+}
+
 header{
 	height: 100vh;
 	background-position:50% 50%;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+}
+.title{
+	font-family: 'Bungee Inline', cursive;
+	font-size: 1500%;
+	color: white;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+	text-shadow: 3px 3px 3px black;
+}
+
+.header-grid{
+	z-index: 1000; margin: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 60vh 25vh;
+	text-align: center;
+	padding-top: 15vh;
+}
+
+.fleche{
+	grid-column: span 2;
+	text-shadow: 3px 3px 3px black;
+}
+
+.type{
+	color: white;
+	text-shadow: 3px 3px 3px black;
 }

@@ -9,7 +9,7 @@
 	background-position:50% 50%;
 	background-repeat: no-repeat;
 	/* Safari 6.0 - 9.0 */
-	filter: grayscale(100%);
+	filter: grayscale(80%);
 	z-index: -1;
 }
 .blobCont {

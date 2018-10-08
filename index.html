@@ -5,14 +5,16 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="css/menu.css" />
 	<link rel="stylesheet" type="text/css" href="css/bulles.css" />
+	<link rel="stylesheet" type="text/css" href="css/arrow.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 	
 </head>
 <body>
-		<header class="header">
+		<header class="header" id="home">
+
 			<!--DEBUT BULLES-->
 			<div class="bgImage"></div>
 			<svg class="blobCont">
@@ -49,27 +51,43 @@
 
 			<!--DEBUT NAV CIRCULAIRE-->
 			<nav class="top-right open">
-				<a href="#contact" class="disc l1">
+				<a href="#contact" class="disc l1 header__nav__link">
 					<div>Contact</div>
 				</a>
-				<a href="#works" class="disc l2">
+				<a href="#works" class="disc l2 header__nav__link">
 					<div>Réalisations</div>
 				</a>
-				<a href="#skills" class="disc l3">
+				<a href="#skills" class="disc l3 header__nav__link">
 					<div>Compétences</div>
 				</a>
-				<a href="#about" class="disc l4">
+				<a href="#about" class="disc l4 header__nav__link">
 					<div>A propos</div>
 				</a>
-				<a href="#home" class="disc l5 toggle header__nav__link--active">
+				<a href="#home" class="disc l5 toggle header__nav__link header__nav__link--active">
 					Menu
 				</a>
 			</nav>
-
-			<h1 style="z-index: 1000; margin: 0;">
-				Yacine FETHI
-			</h1>
 			<!--FIN NAV CIRCULAIRE-->
+			
+			<div class="header-grid">
+				<div>
+					<p class="wow fadeInDown title">Yacine</p><p class="wow fadeInUp title">Fethi</p>
+					<h1 class="type">
+						I love
+						<span
+						     class="txt-rotate"
+						     data-period="2000"
+						     data-rotate='["development.", "you.", "myself.", "everything."]'></span>
+					</h1>
+				</div>
+				<div class="fleche">
+					<a class="arrow-down" href="#about">
+						<i class="fas fa-arrow-down"></i>
+					</a>
+				</div>
+				
+			</div>
+			
 
 			<!--<section class="section" id="home">
 				<nav class="header__nav">
@@ -101,30 +119,28 @@
 	            </nav>
 			</section>-->
 		</header>
-		<section class="section" id="#about" style="height: 100vh; background-color: blue;">
+		<section class="section" id="about" style="height: 100vh; background-color: blue;">
 			
 		</section>
-		<section class="section" id="#skills" style="height: 100vh; background-color: red;">
+		<section class="section" id="skills" style="height: 100vh; background-color: red;">
 			
 		</section>
-		<section class="section" id="#works" style="height: 100vh; background-color: purple;">
+		<section class="section" id="works" style="height: 100vh; background-color: purple;">
 			<div class="wow fadeInRight">
 				<input type="text" name="texte">
 			</div>
 		</section>
-		<section class="section" id="#contact" style="height: 100vh; background-color: yellow;">
+		<section class="section" id="contact" style="height: 100vh; background-color: yellow;">
 			
 		</section>
 		<a id="to-top" class="top">
 	        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
 	    </a>
-
-    <script src="js/scrolloverflow.min.js"></script>
-	<script src="js/fullpage.js"></script>
 	<script src="js/menu.js"></script>
     <script src="js/wow.min.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/bulles.js"></script>
+	<script src="js/typing.js"></script>
 	<script src="js/script.js"></script>
 	<script type="text/javascript">
 		
