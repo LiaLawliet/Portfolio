@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
 body{
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
 	overflow-x: hidden; 
+	font-family: 'Varela Round', sans-serif;
 }
 
 .arrow-down{
@@ -20,7 +22,7 @@ header{
 }
 .title{
 	font-family: 'Bungee Inline', cursive;
-	font-size: 1500%;
+	font-size: 12vw;
 	color: white;
 	margin: 0;
 	padding: 0;
@@ -43,6 +45,52 @@ header{
 }
 
 .type{
+	font-size: 4vw;
 	color: white;
+	margin: 0;
 	text-shadow: 3px 3px 3px black;
+}
+
+.about{
+	background-image: url('../assets/about.png');
+	background-position:50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;	
+}
+
+.about h1{
+	font-size: 3vw;
+	margin: 10vh;
+}
+
+.about p{
+	font-size: 115%; 
+	text-align: left;
+}
+
+.about .p{
+	width: 35vw;
+	margin: 0 auto;
+	padding: 4vw;
+}
+
+.about .inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.skills{
+	background-image: url('../assets/skills.jpg');
+	background-position:50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+.skills h1{
+	font-size: 3vw;
+	margin: 10vh;
 }

@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800,900');
-body {
-  font-family: Alegreya Sans, sans-serif;
-}
 nav {
+  font-family: Alegreya Sans, sans-serif;
   display: block;
   position: fixed;
   width: 500px;
