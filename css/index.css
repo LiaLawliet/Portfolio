@@ -90,7 +90,21 @@ header{
 	color: white;
 }
 
-.skills h1{
+.skills h1:nth-child(1){
 	font-size: 3vw;
 	margin: 10vh;
+}
+
+.works {
+	text-align: center;
+	background-color: orange;
+}
+
+.h1{
+	font-size: 3vw;
+	margin: 10vh;
+}
+
+.card{
+	text-align: left;
 }
