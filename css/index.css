@@ -97,7 +97,7 @@ header{
 
 .works {
 	text-align: center;
-	background-color: orange;
+	background-color: #EEF1EA;
 }
 
 .h1{
@@ -107,4 +107,21 @@ header{
 
 .card{
 	text-align: left;
+}
+
+.works .container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.works .col-md-4{
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 500;
+	margin-bottom: 50px;
+}
+
+.skills .col-md-12{
+	padding-left: 0;
+	padding-right: 0;
 }

@@ -25,9 +25,15 @@
 @keyframes move1 {
   from {
     transform: rotate(90deg) translate(200px, 0.1px) rotate(-90deg);
+    -ms-transform: rotate(90deg) translate(200px, 0.1px) rotate(-90deg);
+    -moz-transform: rotate(90deg) translate(200px, 0.1px) rotate(-90deg);
+    -webkit-transform: rotate(90deg) translate(200px, 0.1px) rotate(-90deg);
   }
   to {
     transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
+    -ms-transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
+    -moz-transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
+    -webkit-transform: rotate(450deg) translate(200px, 0.1px) rotate(-450deg);
   }
 }
 .blob:nth-child(2) {
@@ -36,9 +42,15 @@
 @keyframes move2 {
   from {
     transform: rotate(180deg) translate(200px, 0.1px) rotate(-180deg);
+    -ms-transform: rotate(180deg) translate(200px, 0.1px) rotate(-180deg);
+    -moz-transform: rotate(180deg) translate(200px, 0.1px) rotate(-180deg);
+    -webkit-transform: rotate(180deg) translate(200px, 0.1px) rotate(-180deg);
   }
   to {
     transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
+    -ms-transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
+    -moz-transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
+    -webkit-transform: rotate(540deg) translate(200px, 0.1px) rotate(-540deg);
   }
 }
 .blob:nth-child(3) {
@@ -47,9 +59,15 @@
 @keyframes move3 {
   from {
     transform: rotate(270deg) translate(200px, 0.1px) rotate(-270deg);
+    -ms-transform: rotate(270deg) translate(200px, 0.1px) rotate(-270deg);
+    -moz-transform: rotate(270deg) translate(200px, 0.1px) rotate(-270deg);
+    -webkit-transform: rotate(270deg) translate(200px, 0.1px) rotate(-270deg);
   }
   to {
     transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -ms-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -moz-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -webkit-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
   }
 }
 .blob:nth-child(4) {
@@ -58,9 +76,15 @@
 @keyframes move4 {
   from {
     transform: rotate(360deg) translate(200px, 0.1px) rotate(-360deg);
+    -ms-transform: rotate(360deg) translate(200px, 0.1px) rotate(-360deg);
+    -moz-transform: rotate(360deg) translate(200px, 0.1px) rotate(-360deg);
+    -webkit-transform: rotate(360deg) translate(200px, 0.1px) rotate(-360deg);
   }
   to {
     transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -ms-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -moz-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -webkit-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
   }
 }
 .blob:nth-child(5) {
@@ -69,9 +93,15 @@
 @keyframes move5 {
   from {
     transform: rotate(-450deg) translate(200px, 0.1px) rotate(450deg);
+    -ms-transform: rotate(-450deg) translate(200px, 0.1px) rotate(450deg);
+    -moz-transform: rotate(-450deg) translate(200px, 0.1px) rotate(450deg);
+    -webkit-transform: rotate(-450deg) translate(200px, 0.1px) rotate(450deg);
   }
   to {
     transform: rotate(-810deg) translate(200px, 0.1px) rotate(810deg);
+    -ms-transform: rotate(-810deg) translate(200px, 0.1px) rotate(810deg);
+    -moz-transform: rotate(-810deg) translate(200px, 0.1px) rotate(810deg);
+    -webkit-transform: rotate(-810deg) translate(200px, 0.1px) rotate(810deg);
   }
 }
 .blob:nth-child(6) {
@@ -80,9 +110,15 @@
 @keyframes move6 {
   from {
     transform: rotate(-540deg) translate(200px, 0.1px) rotate(540deg);
+    -ms-transform: rotate(-540deg) translate(200px, 0.1px) rotate(540deg);
+    -moz-transform: rotate(-540deg) translate(200px, 0.1px) rotate(540deg);
+    -webkit-transform: rotate(-540deg) translate(200px, 0.1px) rotate(540deg);
   }
   to {
     transform: rotate(-900deg) translate(200px, 0.1px) rotate(900deg);
+    -ms-transform: rotate(-900deg) translate(200px, 0.1px) rotate(900deg);
+    -moz-transform: rotate(-900deg) translate(200px, 0.1px) rotate(900deg);
+    -webkit-transform: rotate(-900deg) translate(200px, 0.1px) rotate(900deg);
   }
 }
 .blob:nth-child(7) {
@@ -91,9 +127,15 @@
 @keyframes move7 {
   from {
     transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -ms-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -moz-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
+    -webkit-transform: rotate(630deg) translate(200px, 0.1px) rotate(-630deg);
   }
   to {
     transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -ms-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -moz-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -webkit-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
   }
 }
 .blob:nth-child(8) {
@@ -102,9 +144,15 @@
 @keyframes move8 {
   from {
     transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -ms-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -moz-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
+    -webkit-transform: rotate(720deg) translate(200px, 0.1px) rotate(-720deg);
   }
   to {
     transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -ms-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -moz-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -webkit-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
   }
 }
 .blob:nth-child(9) {
@@ -113,9 +161,15 @@
 @keyframes move9 {
   from {
     transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
+    -ms-transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
+    -moz-transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
+    -webkit-transform: rotate(810deg) translate(200px, 0.1px) rotate(-810deg);
   }
   to {
     transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -ms-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -moz-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -webkit-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
   }
 }
 .blob:nth-child(10) {
@@ -124,9 +178,15 @@
 @keyframes move10 {
   from {
     transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
+    -ms-transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
+    -moz-transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
+    -webkit-transform: rotate(900deg) translate(200px, 0.1px) rotate(-900deg);
   }
   to {
     transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -ms-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -moz-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -webkit-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
   }
 }
 .blob:nth-child(11) {
@@ -135,9 +195,15 @@
 @keyframes move11 {
   from {
     transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -ms-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -moz-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
+    -webkit-transform: rotate(990deg) translate(200px, 0.1px) rotate(-990deg);
   }
   to {
     transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -ms-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -moz-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -webkit-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
   }
 }
 .blob:nth-child(12) {
@@ -146,9 +212,15 @@
 @keyframes move12 {
   from {
     transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -ms-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -moz-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
+    -webkit-transform: rotate(1080deg) translate(200px, 0.1px) rotate(-1080deg);
   }
   to {
     transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -ms-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -moz-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -webkit-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
   }
 }
 .blob:nth-child(13) {
@@ -157,9 +229,15 @@
 @keyframes move13 {
   from {
     transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -ms-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -moz-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
+    -webkit-transform: rotate(1170deg) translate(200px, 0.1px) rotate(-1170deg);
   }
   to {
     transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -ms-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -moz-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -webkit-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
   }
 }
 .blob:nth-child(14) {
@@ -168,9 +246,15 @@
 @keyframes move14 {
   from {
     transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -ms-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -moz-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
+    -webkit-transform: rotate(1260deg) translate(200px, 0.1px) rotate(-1260deg);
   }
   to {
     transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -ms-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -moz-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -webkit-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
   }
 }
 .blob:nth-child(15) {
@@ -179,9 +263,15 @@
 @keyframes move15 {
   from {
     transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -ms-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -moz-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
+    -webkit-transform: rotate(1350deg) translate(200px, 0.1px) rotate(-1350deg);
   }
   to {
     transform: rotate(1710deg) translate(200px, 0.1px) rotate(-1710deg);
+    -ms-transform: rotate(1710deg) translate(200px, 0.1px) rotate(-1710deg);
+    -moz-transform: rotate(1710deg) translate(200px, 0.1px) rotate(-1710deg);
+    -webkit-transform: rotate(1710deg) translate(200px, 0.1px) rotate(-1710deg);
   }
 }
 .blob:nth-child(16) {
@@ -190,9 +280,15 @@
 @keyframes move16 {
   from {
     transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -ms-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -moz-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
+    -webkit-transform: rotate(1440deg) translate(200px, 0.1px) rotate(-1440deg);
   }
   to {
     transform: rotate(1800deg) translate(200px, 0.1px) rotate(-1800deg);
+    -ms-transform: rotate(1800deg) translate(200px, 0.1px) rotate(-1800deg);
+    -moz-transform: rotate(1800deg) translate(200px, 0.1px) rotate(-1800deg);
+    -webkit-transform: rotate(1800deg) translate(200px, 0.1px) rotate(-1800deg);
   }
 }
 .blob:nth-child(17) {
@@ -201,9 +297,15 @@
 @keyframes move17 {
   from {
     transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -ms-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -moz-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
+    -webkit-transform: rotate(1530deg) translate(200px, 0.1px) rotate(-1530deg);
   }
   to {
     transform: rotate(1890deg) translate(200px, 0.1px) rotate(-1890deg);
+    -ms-transform: rotate(1890deg) translate(200px, 0.1px) rotate(-1890deg);
+    -moz-transform: rotate(1890deg) translate(200px, 0.1px) rotate(-1890deg);
+    -webkit-transform: rotate(1890deg) translate(200px, 0.1px) rotate(-1890deg);
   }
 }
 .blob:nth-child(18) {
@@ -212,9 +314,15 @@
 @keyframes move18 {
   from {
     transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -ms-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -moz-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
+    -webkit-transform: rotate(1620deg) translate(200px, 0.1px) rotate(-1620deg);
   }
   to {
     transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
+    -ms-transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
+    -moz-transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
+    -webkit-transform: rotate(1980deg) translate(200px, 0.1px) rotate(-1980deg);
   }
 }
 
